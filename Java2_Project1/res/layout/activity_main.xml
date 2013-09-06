@@ -13,7 +13,8 @@
         android:id="@+id/goBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/go" />
+        android:text="@string/go" 
+        android:onClick="startService"/>
     
     <TextView  
     	android:text=""
